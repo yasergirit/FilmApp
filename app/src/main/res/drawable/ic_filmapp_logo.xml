@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Outer film strip frame (mint green) -->
+    <path
+        android:fillColor="#86DFBD"
+        android:pathData="M18,30 h84 a8,8 0 0 1 8,8 v44 a8,8 0 0 1 -8,8 h-84 a8,8 0 0 1 -8,-8 v-44 a8,8 0 0 1 8,-8 z" />
+
+    <!-- Left curved notch top -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M10,30 a8,8 0 0 0 0,16 z" />
+    <!-- Left curved notch bottom -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M10,74 a8,8 0 0 1 0,16 z" />
+    <!-- Right curved notch top -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M110,30 a8,8 0 0 1 0,16 z" />
+    <!-- Right curved notch bottom -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M110,74 a8,8 0 0 0 0,16 z" />
+
+    <!-- Left perforation holes -->
+    <path android:fillColor="#2D3748" android:pathData="M16,38 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+    <path android:fillColor="#2D3748" android:pathData="M16,52 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+    <path android:fillColor="#2D3748" android:pathData="M16,66 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+
+    <!-- Right perforation holes -->
+    <path android:fillColor="#2D3748" android:pathData="M100,38 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+    <path android:fillColor="#2D3748" android:pathData="M100,52 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+    <path android:fillColor="#2D3748" android:pathData="M100,66 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8 Z" />
+
+    <!-- Dark border around inner screen -->
+    <path
+        android:fillColor="#2D3748"
+        android:pathData="M28,34 h64 a10,10 0 0 1 10,10 v32 a10,10 0 0 1 -10,10 h-64 a10,10 0 0 1 -10,-10 v-32 a10,10 0 0 1 10,-10 z" />
+
+    <!-- Inner teal screen -->
+    <path
+        android:fillColor="#3D9B8F"
+        android:pathData="M30,37 h60 a8,8 0 0 1 8,8 v28 a8,8 0 0 1 -8,8 h-60 a8,8 0 0 1 -8,-8 v-28 a8,8 0 0 1 8,-8 z" />
+
+    <!-- Left eye -->
+    <path android:fillColor="#FFFFFF" android:pathData="M50,48 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6 Z" />
+    <!-- Right eye -->
+    <path android:fillColor="#FFFFFF" android:pathData="M70,48 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6 Z" />
+
+    <!-- Play button (golden) -->
+    <path
+        android:fillColor="#F5B731"
+        android:pathData="M52,60 L52,76 L68,68 Z" />
+
+    <!-- Big gold sparkle -->
+    <path
+        android:fillColor="#F5B731"
+        android:pathData="M90,22 L93,30 L101,33 L93,36 L90,44 L87,36 L79,33 L87,30 Z" />
+
+    <!-- Small sparkle (bottom right) -->
+    <path
+        android:fillColor="#AAAAAA"
+        android:pathData="M106,90 L107,93 L110,94 L107,95 L106,98 L105,95 L102,94 L105,93 Z" />
+
+</vector>
